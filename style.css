@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.cartão{
+    position: relative;
+    left: 250px;
+    width: 900px;
+    height: 400px;
+    background-image: url(./imagens/card.jpg);
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+h1{
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(240, 156, 60);
+    margin-right: 43px;
+}
+a{
+    text-decoration: none;
+}
+.lista{
+    font-size: 20px;
+    color: white;
+    list-style: none;
+}
+.whatsapp{
+    position: relative;
+    list-style-image: url(./imagens/whatsapp.png);
+    padding-bottom: 150px;
+    padding-right: 25px;
+    color: black;
+    float: right;
+    bottom: 35px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.instagram{
+
+
+    list-style-image: url(./imagens/insta.png);
+    padding-top: 120px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
